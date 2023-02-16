@@ -1,0 +1,310 @@
+/* DEFAULT STYLING */
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.p1
+{
+    padding: 3rem 6%;
+}
+img{
+    width: 100%;
+}
+.wrapper-class
+{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header-section
+{
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+    align-items: baseline;
+
+}
+.company-logo h1
+{
+    color: #7f088d;
+    text-transform: capitalize;
+}
+
+.company-logo h1 span{
+    color: #F34551;
+}
+
+.right-side nav ul li{
+    display: inline-block;
+    text-transform: capitalize;
+    margin-right: 23px;
+}
+
+.right-side nav ul li a{
+
+ color: #000;
+}
+.first-navigation-bar
+{
+    display: flex;
+    gap: 28rem;
+}
+.header-search-bar-form
+{
+    width: 1164px;
+    display: flex;
+    margin-top: 1rem;
+    border-color: #3933332b;
+}
+
+.header-search-bar-form input
+{
+    border-color: #3933332b;
+
+}
+
+
+/*SECOND NAVIGATION BAR */
+.sec-navbar
+{
+    background-color: #008FA8;
+    padding-bottom: 18px;
+    padding-top: 6px;
+}
+
+.sec-navbar ul li
+{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 0 25px;
+}
+
+
+.sec-navbar ul li a
+{
+    color: #fff;
+}
+
+.sec-navbar ul li a span{
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+
+.prod-img img
+{
+height: 160px;
+width: 160px;
+}
+
+.product
+{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.prod-content a
+{
+    display: block;
+    color: black;
+    font-size: 15px;
+    margin-top: 18px;
+    background-color: #80808047;
+    width: 68px;
+    padding: 5px;
+}
+
+.row-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* BEST SELLERS */
+
+.bar-text
+{
+    text-transform: uppercase;
+    background-color: #002670;
+    color: #e4ae1a;
+    padding: 9px;
+    font-size: 23px;
+
+}
+
+.sell-product .pro-img img
+{
+    height: 230px;
+    width: 230px;
+}
+
+.pro-text
+{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 40px;
+}
+
+.pro-price p:nth-child(3)
+{
+    text-decoration: line-through;
+}
+
+.cart-button a
+{
+    background-color: #002670;
+    color: white;
+    padding: 7px 20px;
+    font-size: 15px;
+
+}
+
+.sell-products
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.new-pro .image img
+{
+    height: 300px;
+    width: 300px;
+}
+
+.pro-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.new-pro
+{
+    height: 420px;
+    width: 420px;
+    position: relative;
+    z-index: 9999;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.pro .new-pro:nth-child(1)
+{
+    background-color: #80808026;
+    
+
+}
+
+
+.pro .new-pro:nth-child(2)
+{
+    background: linear-gradient(to right, #0B020C, #450B3D);
+    color: #fff;
+
+}
+
+.pro .new-pro:nth-child(3)
+{
+    background: linear-gradient(to bottom, #76CAF1, #689DA3);
+
+}
+
+
+/* FOOTER SECTION */
+.foot-container
+{
+    border-top: 3px solid #80808036;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+    gap: 6rem;
+  
+}
+
+.foot h5{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.foot ul li a{
+    color: grey;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 15px;
+
+}
+
+.foot ul li a span{
+    margin-right: 25px;
+    border-radius: 50%;
+    border: 1px solid #80808042;
+    padding: 10px;
+}
+
+.foot-container .contact ul li a
+{
+padding-bottom:28px;
+}
+
+.search-bar-form
+{
+    width: 370px;
+    display: flex;
+}
+
+input{
+    width: 100%;
+    padding: 4px 0px;
+}
+
+.search-bar-form a{
+    color: white;
+    background-color: #002670;
+    padding: 3px 20px;
+}
+
+.foot .connect-us
+{
+    margin: 2rem 0;
+}
+
+.foot .social-icons li
+{
+    display: inline-block;
+    margin-right: 29px;
+}
+
+.foot .social-icons li a i
+{
+    color: black;
+    border: 1px solid #8080803d;
+    padding: 8px 10px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+
+
+
+.header-search-bar-form a{
+    color: white;
+    background-color: #00AFE4;
+    padding: 3px 20px;
+    border-right: 1px solid white;
+
+}
